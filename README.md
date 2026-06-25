@@ -2,7 +2,7 @@
 
 
 
-I'm a CS student from Greater Noida passionate about building AI-powered applications that solve real-world problems.
+I'm a AI student from Greater Noida passionate about building AI-powered applications that solve real-world problems.
 
 
 
