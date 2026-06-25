@@ -34,7 +34,7 @@ Computer vision app that detects 17 Indian food classes from images and estimate
 
 
 
-\*\*Languages:\*\* Python, JavaScript  
+\*\*Languages:\*\* Python, JavaScript , C++
 
 \*\*Frameworks:\*\* React, FastAPI, Streamlit  
 
