@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Chirag Duhoon 👋</h1>
 
 <p align="center">
-  CS undergrad · Backend & AI systems builder · Competitive programmer
+  AI undergrad · Backend & AI systems builder · Competitive programmer
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ I like systems that are **transparent about their reasoning** RAG engines that c
 | **[Leet2Git](https://github.com/chiragduhoon/leet-2-git)** | Chrome extension that auto-pushes every accepted LeetCode solution to GitHub and tracks solved counts | JavaScript, Chrome APIs, GitHub API |
 | **[NeatCode](https://github.com/chiragduhoon/neatcode)** | AI coding companion on LeetCode  watches your code and reacts, without ever spoiling the answer | JavaScript, LLMs |
 | **[BURank](https://github.com/Captain-23/BURank)** | LeetCode leaderboard platform for universities  batch rankings, contest tracking, admin panel ([live](https://www.burank.app)) | Full-stack, open to contributors |
-| **NutriScan** | Food detection + nutrition analysis from camera input using a custom-trained YOLO model | Python, YOLO, OpenCV |
+| **[Food-predictor](https://github.com/chiragduhoon/food-predictor)** | Food detection + nutrition analysis from camera input using a custom-trained YOLO model | Python, YOLO, OpenCV |
 
 ## 📊 GitHub stats
 
