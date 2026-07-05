@@ -7,9 +7,10 @@
 <p align="center">
   <a href="https://github.com/chiragduhoon/portfolio">Portfolio</a> ·
   <a href="mailto:chiragduhoon1@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a> ·
-  <a href="https://leetcode.com/YOUR_LEETCODE">LeetCode</a>
+  <a href="https://www.linkedin.com/in/chirag-duhoon-790b48404/">LinkedIn</a> ·
+  <a href="https://leetcode.com/u/chiragduhoon/">LeetCode</a>
 </p>
+
 
 ---
 
