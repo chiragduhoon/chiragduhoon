@@ -15,7 +15,7 @@
 
 ## 🚀 What I build
 
-I like systems that are **transparent about their reasoning** — RAG engines that cite sources, triage systems that explain risk scores, and tools that automate the boring parts of grinding DSA.
+I like systems that are **transparent about their reasoning** RAG engines that cite sources, triage systems that explain risk scores, and tools that automate the boring parts of grinding DSA.
 
 ## 🛠️ Skills
 
