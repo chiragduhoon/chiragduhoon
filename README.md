@@ -48,8 +48,8 @@ I like systems that are **transparent about their reasoning** RAG engines that c
 | **[Chitragupt — Brand Memory Engine](https://github.com/chiragduhoon/brand-memory-engine)** | Hallucination-resistant brand Q&A: dual-collection RAG with guaranteed rule recall, self-critique loop, transparent trust score per answer | Python, FastAPI, ChromaDB, Groq/Cerebras |
 | **[Sanjeevani — AI Healthcare Triage](https://github.com/chiragduhoon/sanjeevani-ai-triage)** | Replaces verbal ER intake with structured AI triage: voice/text symptoms → risk classification → live doctor dashboard with critical alerts | Python, LLMs, real-time dashboard |
 | **[Leet2Git](https://github.com/chiragduhoon/leet-2-git)** | Chrome extension that auto-pushes every accepted LeetCode solution to GitHub and tracks solved counts | JavaScript, Chrome APIs, GitHub API |
-| **[NeatCode](https://github.com/chiragduhoon/neatcode)** | AI coding companion on LeetCode — watches your code and reacts, without ever spoiling the answer | JavaScript, LLMs |
-| **[BURank](https://github.com/Captain-23/BURank)** | LeetCode leaderboard platform for universities — batch rankings, contest tracking, admin panel ([live](https://www.burank.app)) | Full-stack, open to contributors |
+| **[NeatCode](https://github.com/chiragduhoon/neatcode)** | AI coding companion on LeetCode  watches your code and reacts, without ever spoiling the answer | JavaScript, LLMs |
+| **[BURank](https://github.com/Captain-23/BURank)** | LeetCode leaderboard platform for universities  batch rankings, contest tracking, admin panel ([live](https://www.burank.app)) | Full-stack, open to contributors |
 | **NutriScan** | Food detection + nutrition analysis from camera input using a custom-trained YOLO model | Python, YOLO, OpenCV |
 
 ## 📊 GitHub stats
