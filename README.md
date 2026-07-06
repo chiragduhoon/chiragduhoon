@@ -68,7 +68,7 @@ I like systems that are **transparent about their reasoning** — RAG engines th
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/chiragduhoon?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode stats" />
+  <img src="https://leetcard.jacoblin.cool/alien07?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode stats" />
 </p>
 
 ---
