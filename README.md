@@ -1,14 +1,14 @@
 <h1 align="center">Hi, I'm Chirag Duhoon 👋</h1>
 
 <p align="center">
-  CS undergrad · Backend & AI systems builder · Competitive programmer
+  AI undergrad · Backend & AI systems builder · Competitive programmer
 </p>
 
 <p align="center">
   <a href="https://github.com/chiragduhoon/portfolio">Portfolio</a> ·
   <a href="mailto:chiragduhoon1@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a> ·
-  <a href="https://leetcode.com/u/chiragduhoon/">LeetCode</a>
+  <a href="https://leetcode.com/u/alien07/">LeetCode</a>
 </p>
 
 ---
