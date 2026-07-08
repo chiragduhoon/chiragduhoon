@@ -62,8 +62,7 @@ I build **AI systems that reason transparently** — from RAG engines that cite 
 | **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A system using dual-collection RAG with guaranteed rule recall and self-critique validation | LLMs, ChromaDB, FastAPI, Prompt Engineering | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
 | **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage — converts voice/text symptoms into risk classifications with clinical validation | Python, LLMs, Audio Processing | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
 | **Leet2Git** | Chrome extension that auto-commits every accepted LeetCode solution to GitHub with real-time tracking | JavaScript, Chrome APIs, GitHub API | [GitHub](https://github.com/chiragduhoon/leet-2-git) |
-| **NeatCode** | Interactive AI coding companion on LeetCode — analyzes code in real-time without spoiling solutions | JavaScript, LLMs, DOM Manipulation | [GitHub](https://github.com/chiragduhoon/neatcode) |
-| **NutriScan** | Real-time food detection & nutrition analysis using custom-trained YOLOv8 model from camera input | Python, YOLOv8, OpenCV, FastAPI | [GitHub](https://github.com/chiragduhoon/nutriscan) |
+| **NutriScan** | Real-time food detection & nutrition analysis using custom-trained YOLOv8 model from camera input | Python, YOLOv8, OpenCV, FastAPI | [GitHub](https://github.com/chiragduhoon/food-predictor) |
 
 ---
 
