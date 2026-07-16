@@ -19,7 +19,7 @@
 
 ## 🎯 About Me
 
-I build **AI systems that reason transparently** — from RAG engines that cite sources to triage systems that explain risk scores. I combine backend expertise with cutting-edge ML to create products that are both powerful and explainable. Currently exploring the intersection of computer vision, LLMs, and real-time systems.
+I build **AI systems that reason transparently** from RAG engines that cite sources to triage systems that explain risk scores. I combine backend expertise with cutting-edge ML to create products that are both powerful and explainable. Currently exploring the intersection of computer vision, LLMs, and real-time systems.
 
 ---
 
@@ -60,7 +60,7 @@ I build **AI systems that reason transparently** — from RAG engines that cite 
 |---------|-------------|-----------|-------|
 | **BURank** | LeetCode leaderboard platform for universities — live stats, batch-vs-batch rankings, daily challenges with First Blood mechanics | FastAPI, React, PostgreSQL, WebSockets | [GitHub](https://github.com/chiragduhoon/BURank) · [Live Demo](https://bu-rank-three.vercel.app/) |
 | **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A system using dual-collection RAG with guaranteed rule recall and self-critique validation | LLMs, ChromaDB, FastAPI, Prompt Engineering | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
-| **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage — converts voice/text symptoms into risk classifications with clinical validation | Python, LLMs, Audio Processing | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
+| **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage  converts voice/text symptoms into risk classifications with clinical validation | Python, LLMs, Audio Processing | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
 | **Leet2Git** | Chrome extension that auto-commits every accepted LeetCode solution to GitHub with real-time tracking | JavaScript, Chrome APIs, GitHub API | [GitHub](https://github.com/chiragduhoon/leet-2-git) |
 | **NutriScan** | Real-time food detection & nutrition analysis using custom-trained YOLOv8 model from camera input | Python, YOLOv8, OpenCV, FastAPI | [GitHub](https://github.com/chiragduhoon/food-predictor) |
 
@@ -101,5 +101,5 @@ I build **AI systems that reason transparently** — from RAG engines that cite 
 </p>
 
 <p align="center">
-  <i>Building systems that don't just work — they explain themselves. Open to internships & collaborations! 🚀</i>
+  <i>Building systems that don't just work  they explain themselves. Open to internships & collaborations! 🚀</i>
 </p>
