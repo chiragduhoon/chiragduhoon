@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Chirag Duhoon 👋</h1>
 
 <p align="center">
-  CS undergrad · Backend & AI systems builder · Competitive programmer
+  B.Tech AI @ Bennett University · AI engineer: RAG, agents, computer vision · Competitive programmer
 </p>
 
 <p align="center">
@@ -47,14 +47,15 @@ I like systems that are **transparent about their reasoning** — RAG engines th
 
 ## 📌 Featured projects
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| **[BURank](https://github.com/chiragduhoon/BURank)** | LeetCode leaderboard platform for universities — live stats, batch-vs-batch rankings, daily challenge with First Blood, passwordless magic-link auth, student verification, admin panel | Next.js, TypeScript, Prisma, PostgreSQL |
-| **[Chitragupt — Brand Memory Engine](https://github.com/chiragduhoon/brand-memory-engine)** | Hallucination-resistant brand Q&A: dual-collection RAG with guaranteed rule recall, self-critique loop, transparent trust score per answer | Python, FastAPI, ChromaDB, Groq/Cerebras |
-| **[Sanjeevani — AI Healthcare Triage](https://github.com/chiragduhoon/sanjeevani-ai-triage)** | Replaces verbal ER intake with structured AI triage: voice/text symptoms → risk classification → live doctor dashboard with critical alerts | Python, LLMs, real-time dashboard |
-| **[Leet2Git](https://github.com/chiragduhoon/leet-2-git)** | Chrome extension that auto-pushes every accepted LeetCode solution to GitHub and tracks solved counts | JavaScript, Chrome APIs, GitHub API |
-| **[NeatCode](https://github.com/chiragduhoon/neatcode)** | AI coding companion on LeetCode — watches your code and reacts, without ever spoiling the answer | JavaScript, LLMs |
-| **NutriScan** | Food detection + nutrition analysis from camera input using a custom-trained YOLO model | Python, YOLO, OpenCV |
+| Project | What it does | Proof | Stack |
+|---------|-------------|-------|-------|
+| **[BENNETT ONE](https://github.com/chiragduhoon/bennett-one)** | University assistant over 363 official documents: agentic RAG that cites the page, a rule engine (not the LLM) decides eligibility, every claim verified against its source | 31/31 on a real student-question eval (from 72%), self-hosted Qwen3-14B | LangGraph, FastAPI, Qdrant, Postgres, React |
+| **[Sanjeevani — AI Healthcare Triage](https://github.com/chiragduhoon/sanjeevani-ai-triage)** | Voice/text symptoms in English, Hindi or Hinglish → risk level → live doctor dashboard. A deterministic red-flag net escalates any emergency the LLM misses | 26/26 emergencies caught on a labelled test set (from 19/26) | FastAPI, WebSockets, LLMs, React |
+| **[Chitragupt — Brand Memory Engine](https://github.com/chiragduhoon/brand-memory-engine)** | Hallucination-resistant brand Q&A: rules retrieved with guaranteed recall, self-critique loop, transparent trust score per answer | Tested recall guarantee and token budget | Python, FastAPI, ChromaDB, Groq/Cerebras |
+| **[NutriScan](https://github.com/chiragduhoon/nutriscan)** | Detects 17 Indian dishes in a photo and estimates the meal's calories | YOLO11s, mAP@0.5 = 0.80, 124 ms on a laptop CPU | PyTorch, Ultralytics, Streamlit |
+| **[BURank](https://github.com/chiragduhoon/BURank)** | LeetCode leaderboard platform for universities: live stats, batch rankings, daily challenge, magic-link auth, admin panel | | Next.js, TypeScript, Prisma, PostgreSQL |
+| **[Dhobi Clinic](https://github.com/chiragduhoon/dhobi-clinic)** | Campus laundry platform: QR-tracked bags, one-stage-per-scan workflow with row locks, OTP collection | Student app, worker app, admin dashboard on one API | Node, Express, Postgres, Flutter, React |
+| **[Leet2Git](https://github.com/chiragduhoon/leet-2-git)** · **[NeatCode](https://github.com/chiragduhoon/neatcode)** | Chrome extensions: auto-push accepted LeetCode solutions to GitHub · an AI coding companion that never spoils the answer | | JavaScript, TypeScript, Chrome APIs |
 
 ## 📊 GitHub stats
 
