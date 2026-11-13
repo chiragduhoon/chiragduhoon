@@ -13,9 +13,17 @@
 
 ---
 
+<p align="center"><b>🎯 Open to AI / ML engineering internships and full-time roles</b></p>
+
 ## 🚀 What I build
 
-I like systems that are **transparent about their reasoning** — RAG engines that cite sources, triage systems that explain risk scores, and tools that automate the boring parts of grinding DSA.
+I like AI systems that are **transparent about their reasoning and measured, not guessed**: RAG engines that cite the exact page, triage systems with a tested safety net, and evaluations that show the numbers.
+
+- 🎓 **B.Tech in Artificial Intelligence**, Bennett University
+- 🧠 Built an **agentic RAG system over 363 official documents** with a self-hosted Qwen3-14B: 31/31 on a real student-question eval
+- 🩺 Made an AI triage system's emergency detection **catch 26/26 red-flag cases** in English, Hindi and Hinglish
+- 👁️ Trained a **YOLO11 detector for 17 Indian dishes** (mAP@0.5 = 0.80, 124 ms on a laptop CPU)
+- 💻 **125+ LeetCode problems** solved in C++, auto-synced by my own Chrome extension
 
 ## 🛠️ Skills
 
@@ -58,11 +66,6 @@ I like systems that are **transparent about their reasoning** — RAG engines th
 | **[Leet2Git](https://github.com/chiragduhoon/leet-2-git)** · **[NeatCode](https://github.com/chiragduhoon/neatcode)** | Chrome extensions: auto-push accepted LeetCode solutions to GitHub · an AI coding companion that never spoils the answer | | JavaScript, TypeScript, Chrome APIs |
 
 ## 📊 GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chiragduhoon&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chiragduhoon&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=chiragduhoon&theme=tokyonight&hide_border=true" alt="GitHub streak" />
