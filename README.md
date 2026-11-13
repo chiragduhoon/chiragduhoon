@@ -82,7 +82,7 @@ I build **AI systems that reason transparently**: RAG engines that cite the exac
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/alien07?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode stats" />
+  <img src="https://leetcard.jacoblin.cool/alien07?theme=dark&font=Ubuntu" alt="LeetCode stats" />
 </p>
 
 ---
