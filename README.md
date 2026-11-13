@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Building production AI apps with <code>Python</code> & <code>React</code> | YOLOv8 • FastAPI • WebSockets | Open to internships
+  Building production AI apps with <code>Python</code> & <code>React</code> | RAG • Agents • YOLO • FastAPI | Open to internships
 </p>
 
 <p align="center">
@@ -19,7 +19,11 @@
 
 ## 🎯 About Me
 
-I build **AI systems that reason transparently** from RAG engines that cite sources to triage systems that explain risk scores. I combine backend expertise with cutting-edge ML to create products that are both powerful and explainable. Currently exploring the intersection of computer vision, LLMs, and real-time systems.
+I build **AI systems that reason transparently**: RAG engines that cite the exact source page, triage systems with a tested safety net, and evaluations that show the numbers. I'm a B.Tech AI student at Bennett University, working where LLMs, computer vision and real-time backends meet.
+
+- 🧠 Agentic RAG over **363 official university documents** on a self-hosted Qwen3-14B: **31/31** on a real student-question eval (up from 72%)
+- 🩺 AI triage in English, Hindi and Hinglish whose red-flag net catches **26/26 emergencies** on a labelled test set
+- 👁️ YOLO11 detector for 17 Indian dishes: **mAP@0.5 = 0.80**, 124 ms per image on a laptop CPU
 
 ---
 
@@ -40,7 +44,10 @@ I build **AI systems that reason transparently** from RAG engines that cite sour
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=websocket&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma·PostgreSQL-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8·Vision-111F68?style=for-the-badge)
+![YOLO](https://img.shields.io/badge/YOLO·Computer_Vision-111F68?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph·Agents-1C3C3C?style=for-the-badge)
+![Qdrant](https://img.shields.io/badge/Qdrant·Vector_Search-DC244C?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama·Self--hosted_LLMs-000000?style=for-the-badge)
 ![LLMs](https://img.shields.io/badge/LLM_Pipelines-8A2BE2?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG·ChromaDB-FF6B35?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -58,19 +65,17 @@ I build **AI systems that reason transparently** from RAG engines that cite sour
 
 | Project | Description | Tech Stack | Links |
 |---------|-------------|-----------|-------|
-| **BURank** | LeetCode leaderboard platform for universities — live stats, batch-vs-batch rankings, daily challenges with First Blood mechanics | FastAPI, React, PostgreSQL, WebSockets | [GitHub](https://github.com/chiragduhoon/BURank) · [Live Demo](https://bu-rank-three.vercel.app/) |
-| **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A system using dual-collection RAG with guaranteed rule recall and self-critique validation | LLMs, ChromaDB, FastAPI, Prompt Engineering | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
-| **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage  converts voice/text symptoms into risk classifications with clinical validation | Python, LLMs, Audio Processing | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
+| **BENNETT ONE** | University assistant over 363 official documents: agentic RAG that cites the page, a tested rule engine (not the LLM) decides eligibility, every claim verified against its source. **31/31** on a real student-question eval | LangGraph, Qwen3-14B (self-hosted), Qdrant, PostgreSQL, FastAPI, React | [GitHub](https://github.com/chiragduhoon/bennett-one) |
+| **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage: voice/text symptoms in English, Hindi or Hinglish → risk level → live doctor dashboard. Deterministic red-flag net catches **26/26** emergencies | Python, FastAPI, LLMs, WebSockets, React | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
+| **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A: dual-collection RAG with guaranteed rule recall, self-critique loop and a transparent trust score | LLMs, ChromaDB, FastAPI, Groq | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
+| **NutriScan** | Detects 17 Indian dishes in a photo and estimates the meal's calories. **mAP@0.5 = 0.80**, runs on a laptop CPU in 124 ms | Python, YOLO11, PyTorch, Streamlit | [GitHub](https://github.com/chiragduhoon/nutriscan) |
+| **BURank** | LeetCode leaderboard platform for universities: live stats, batch-vs-batch rankings, daily challenges with First Blood mechanics | Next.js, TypeScript, Prisma, PostgreSQL | [GitHub](https://github.com/chiragduhoon/BURank) · [Live Demo](https://bu-rank-three.vercel.app/) |
+| **Dhobi Clinic** | Campus laundry platform: QR-tracked bags, row-locked one-stage-per-scan workflow, OTP collection; student/worker app + admin dashboard | Node.js, PostgreSQL, Flutter, React | [GitHub](https://github.com/chiragduhoon/dhobi-clinic) |
 | **Leet2Git** | Chrome extension that auto-commits every accepted LeetCode solution to GitHub with real-time tracking | JavaScript, Chrome APIs, GitHub API | [GitHub](https://github.com/chiragduhoon/leet-2-git) |
-| **NutriScan** | Real-time food detection & nutrition analysis using custom-trained YOLOv8 model from camera input | Python, YOLOv8, OpenCV, FastAPI | [GitHub](https://github.com/chiragduhoon/food-predictor) |
 
 ---
 
 ## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chiragduhoon&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=chiragduhoon&theme=tokyonight&hide_border=true" alt="GitHub streak" />
@@ -101,5 +106,5 @@ I build **AI systems that reason transparently** from RAG engines that cite sour
 </p>
 
 <p align="center">
-  <i>Building systems that don't just work  they explain themselves. Open to internships & collaborations! 🚀</i>
+  <i>Building systems that don't just work: they explain themselves. Open to internships & collaborations! 🚀</i>
 </p>
