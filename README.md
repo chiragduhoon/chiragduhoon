@@ -22,6 +22,7 @@
 I build **AI systems that reason transparently**: RAG engines that cite the exact source page, triage systems with a tested safety net, and evaluations that show the numbers. I'm a B.Tech AI student at Bennett University, working where LLMs, computer vision and real-time backends meet.
 
 - 🧠 Agentic RAG over **363 official university documents** on a self-hosted Qwen3-14B: **31/31** on a real student-question eval (up from 72%)
+- 🛡️ Fine-tuned **HingRoBERTa + TF-IDF ensembles** for Hinglish hate-speech detection: macro-F1 **0.744 → 0.806**, with a bounded local LLM agent for disguised slurs
 - 🩺 AI triage in English, Hindi and Hinglish whose red-flag net catches **26/26 emergencies** on a labelled test set
 - 👁️ YOLO11 detector for 17 Indian dishes: **mAP@0.5 = 0.80**, 124 ms per image on a laptop CPU
 
@@ -66,6 +67,7 @@ I build **AI systems that reason transparently**: RAG engines that cite the exac
 | Project | Description | Tech Stack | Links |
 |---------|-------------|-----------|-------|
 | **BENNETT ONE** | University assistant over 363 official documents: agentic RAG that cites the page, a tested rule engine (not the LLM) decides eligibility, every claim verified against its source. **31/31** on a real student-question eval | LangGraph, Qwen3-14B (self-hosted), Qdrant, PostgreSQL, FastAPI, React | [GitHub](https://github.com/chiragduhoon/bennett-one) |
+| **HinglishGuard** | Hindi/Hinglish abuse and religious-hate moderation: fine-tuned transformer ensembles plus a local tool-calling agent that decodes disguised slurs ("ch*tiya") and reads context. HOT macro-F1 **0.806**, human-review load on THAR cut from 85% to 57% | HingRoBERTa, XLM-R, PyTorch, Ollama, Streamlit | [GitHub](https://github.com/chiragduhoon/hinglishguard) |
 | **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage: voice/text symptoms in English, Hindi or Hinglish → risk level → live doctor dashboard. Deterministic red-flag net catches **26/26** emergencies | Python, FastAPI, LLMs, WebSockets, React | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
 | **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A: dual-collection RAG with guaranteed rule recall, self-critique loop and a transparent trust score | LLMs, ChromaDB, FastAPI, Groq | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
 | **NutriScan** | Detects 17 Indian dishes in a photo and estimates the meal's calories. **mAP@0.5 = 0.80**, runs on a laptop CPU in 124 ms | Python, YOLO11, PyTorch, Streamlit | [GitHub](https://github.com/chiragduhoon/nutriscan) |
