@@ -22,7 +22,7 @@
 I build **AI systems that reason transparently**: RAG engines that cite the exact source page, triage systems with a tested safety net, and evaluations that show the numbers. I'm a B.Tech AI student at Bennett University, working where LLMs, computer vision and real-time backends meet.
 
 - 🧠 Agentic RAG over **363 official university documents** on a self-hosted Qwen3-14B: **31/31** on a real student-question eval (up from 72%)
-- 🛡️ Built a **Discord moderation bot** for Hinglish hate speech, with fine-tuned **HingRoBERTa + TF-IDF ensembles**: macro-F1 **0.744 → 0.806**, with a bounded local LLM agent for disguised slurs
+- 🛡️ Built a **Discord moderation bot** for Hinglish hate speech, with fine-tuned **HingRoBERTa + TF-IDF ensembles**: macro-F1 **0.744 → 0.800**, with a bounded local LLM agent for disguised slurs
 - 🩺 AI triage in English, Hindi and Hinglish whose red-flag net catches **26/26 emergencies** on a labelled test set
 - 👁️ YOLO11 detector for 17 Indian dishes: **mAP@0.5 = 0.80**, 124 ms per image on a laptop CPU
 
@@ -67,7 +67,7 @@ I build **AI systems that reason transparently**: RAG engines that cite the exac
 | Project | Description | Tech Stack | Links |
 |---------|-------------|-----------|-------|
 | **BENNETT ONE** | University assistant over 363 official documents: agentic RAG that cites the page, a tested rule engine (not the LLM) decides eligibility, every claim verified against its source. **31/31** on a real student-question eval | LangGraph, Qwen3-14B (self-hosted), Qdrant, PostgreSQL, FastAPI, React | [GitHub](https://github.com/chiragduhoon/bennett-one) |
-| **HinglishGuard** | **Discord moderation bot** for Hindi/Hinglish: removes abuse and religious hate with a warning, routes uncertain messages to human moderators. Fine-tuned transformer ensembles plus a local tool-calling agent that decodes disguised slurs ("ch*tiya"). HOT macro-F1 **0.806**; tested live in a Discord server | HingRoBERTa, PyTorch, discord.py, Ollama | [GitHub](https://github.com/chiragduhoon/hinglishguard) |
+| **HinglishGuard** | **Discord moderation bot** for Hindi/Hinglish: removes abuse and religious hate with a warning, routes uncertain messages to human moderators. Fine-tuned transformer ensembles plus a local tool-calling agent that decodes disguised slurs ("ch*tiya"). HOT macro-F1 **0.800**, THAR **0.790**; tested live in a Discord server | HingRoBERTa, PyTorch, discord.py, Ollama | [GitHub](https://github.com/chiragduhoon/hinglishguard) |
 | **Sanjeevani — AI Healthcare Triage** | Replaces verbal ER intake with structured AI triage: voice/text symptoms in English, Hindi or Hinglish → risk level → live doctor dashboard. Deterministic red-flag net catches **26/26** emergencies | Python, FastAPI, LLMs, WebSockets, React | [GitHub](https://github.com/chiragduhoon/sanjeevani-ai-triage) · [Live Demo](https://sanjeevani-frontend-zaah.onrender.com/) |
 | **Chitragupt — Brand Memory Engine** | Hallucination-resistant brand Q&A: dual-collection RAG with guaranteed rule recall, self-critique loop and a transparent trust score | LLMs, ChromaDB, FastAPI, Groq | [GitHub](https://github.com/chiragduhoon/brand-memory-engine) |
 | **StockLens** | Nifty 50 research workspace on real data: 1-year prices, reported financials (USD reporters converted, stale statements flagged), analyst consensus, and news scored by **FinBERT**, explained by a self-hosted LLM that must cite evidence records | FastAPI, React, Qwen2.5 (Ollama), FinBERT, yfinance | [GitHub](https://github.com/chiragduhoon/stocklens) |
